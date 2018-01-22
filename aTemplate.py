@@ -4,9 +4,9 @@
 # Hacker: Jim Burnham - STEAM Clown, Engineer, Maker, Propmaster & Adrenologist 
 # This example code is licensed under the CC BY-NC-SA 3.0.
 # https://creativecommons.org/licenses/by-nc-sa/3.0/
-# Program/Design Name:		aStartingTemplateForClass.py
-# Description:             This is a template for python programs
-# Dependencies: 
+# Program/Design Name:		aTemplate.py
+# Description:    This is a template for python programs
+# Dependencies:   python3
 # Revision: 
 #  Revision 0.02 - Updated 01/21/2018 for SVCTE Mechatronics Class
 #  Revision 0.01 - Created 01/20/2018
@@ -15,27 +15,13 @@
 # ============================================================================
 
 def main():
-   # Get the name of the file and open it
-   name = input('Enter file:')
-   handle = open(name, 'r')
-   
-   # Count word frequency
-   counts = dict()
-   for line in handle:
-      words = line.split()
-      for word in words:
-         counts[word] = counts.get(word,0) + 1
-   
-   # Find the most common word
-   bigcount = None
-   bigword = None
-   for word,count in counts.items():
-      if bigcount is None or count > bigcount:
-         bigword = word
-         bigcount = count
-   
+   # This is the main function.  all your main code goes here.  
+   # You can call other functions from here
+   x=2
+   y=6
+   z=x+y
+   print(z)
    # All done
-   print(bigword, bigcount)
 
 # This is the call to the Function main().  You should always 
 # have a main() and def main(): as part of all your programs
