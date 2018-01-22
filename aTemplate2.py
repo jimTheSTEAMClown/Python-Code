@@ -25,6 +25,7 @@ def myFunction(myx,myy,z):
 def main():
   # This is the main function.  all your main code goes here.  
   # You can call other functions from here
+  print('starting main')
   x=2
   y=6
   z=x+y
