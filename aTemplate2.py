@@ -17,19 +17,21 @@
 
 # this is myFunction, which is called from main
 def myFunction(myx,myy,z):
-  print("just entered myFunction")
-  z=z+(myx-myy)
-  print("z is now =",z,"but is it really? Think Local vs Global")
-  print('all done with myFunction')
+  print("\tjust entered myFunction")
+  z=z+(myx-myy)+7
+  print("\tz=z+(myx-myy)+7 and is now =",z)
+  print("\tbut is it really? Think Local vs Global")
+  print('\tall done with myFunction')
 
 def main():
   # This is the main function.  all your main code goes here.  
   # You can call other functions from here
   print('starting main')
-  x=2
+  #x=2
+  x = int(input('Enter value for x between 0-9: '))
   y=6
   z=x+y
-  print("z =",z)
+  print("x =",x,"y =",y,"z =",z)
   print("calling myFunction with passing variables")
   myFunction(x,y,z)
   print('back in main')
