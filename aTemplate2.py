@@ -4,8 +4,9 @@
 # Hacker: Jim Burnham - STEAM Clown, Engineer, Maker, Propmaster & Adrenologist 
 # This example code is licensed under the CC BY-NC-SA 3.0.
 # https://creativecommons.org/licenses/by-nc-sa/3.0/
-# Program/Design Name:		aTemplate.py
-# Description:    This is a template for python programs
+# Program/Design Name:		aTemplate2.py
+# Description:    This is a template for python programs.  It shows passing variables 
+#                 to a function
 # Dependencies:   python3
 # Revision: 
 #  Revision 0.02 - Updated 01/21/2018 for SVCTE Mechatronics Class
@@ -15,11 +16,11 @@
 # ============================================================================
 
 # this is myFunction, which is called from main
-def myFunction():
-  print("just entered myFunction"
-  z=z+(x-y)
-  print(z)
-  print("Just ran myFunction")
+def myFunction(myx,myy,z):
+  print("just entered myFunction")
+  z=z+(myx-myy)
+  print("z is now =",z,"but is it really? Think Local vs Global")
+  print('all done with myFunction')
 
 def main():
   # This is the main function.  all your main code goes here.  
@@ -27,9 +28,11 @@ def main():
   x=2
   y=6
   z=x+y
-  print(z)
-  print("calling myFunction")
-  myFunction()
+  print("z =",z)
+  print("calling myFunction with passing variables")
+  myFunction(x,y,z)
+  print('back in main')
+  print("z still =",z)
   print('all done with main')
   # All done
 
