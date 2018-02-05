@@ -14,7 +14,7 @@
 # 
 # ============================================================================
 
-# This is the main function.  all your main code goes here.
+# This is the main function. all your main code goes here.
 def main():
    print ('This program illustrates a if / else function')
    numberFromKeyboard = int(input("Enter a number between 0 and 9: "))
