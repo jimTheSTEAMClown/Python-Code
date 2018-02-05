@@ -14,7 +14,6 @@
 # 
 # ============================================================================
 def myCoolFunction(numberFromKeyboard):
-   print (type(numberFromKeyboard))
    print(numberFromKeyboard)
    if numberFromKeyboard == '0':
       print ('this is the character 0')
