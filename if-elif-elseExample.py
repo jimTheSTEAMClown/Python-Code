@@ -13,22 +13,20 @@
 # Additional Comments: 
 # 
 # ============================================================================
-def myCoolFunction(a):
-   print (type(a))
-   print(a)
-   if a == '1':
-      print ('this is the character 1')
-   elif a == '2':
-      print ('this is the character 2')
-   else: 
-      print ('this is the character 3') # Is this right? What about 4,5,6...
+def myCoolFunction(numberFromKeyboard):
+   print (type(numberFromKeyboard))
+   print(numberFromKeyboard)
+   if numberFromKeyboard == '0':
+      print ('this is the character 0')
+   elif numberFromKeyboard == '7':
+      print ('this is the character ',numberFromKeyboard)
+   else:
+      print ('this is the character is not 0 or 7, it is', numberFromKeyboard)
 
 def main():
-   # This is the main function.  all your main code goes here.  
+   # This is the main function.  all your main code goes here.
    print ('This program illustrates a if / else / else if function')
-   
-   myCoolFunction(input('input:'))
-   
+   myCoolFunction(input("Enter a number between 0 and 9: "))
    print('back from myCoolFunction')
    print('All Done')
    # All done
