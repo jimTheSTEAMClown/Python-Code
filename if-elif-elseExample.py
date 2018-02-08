@@ -13,19 +13,21 @@
 # Additional Comments: 
 # 
 # ============================================================================
-def myCoolFunction(numberFromKeyboard):
-   print(numberFromKeyboard)
-   if numberFromKeyboard == '0':
-      print ('this is the character 0')
-   elif numberFromKeyboard == '7':
-      print ('this is the character ',numberFromKeyboard)
+def myCoolFunction(variableA):
+   print('in myCoolFunction and variable A =',variableA)
+   if variableA == 0:
+      print ('you entered 0')
+   elif variableA == 7:
+      print ('this is the number ',variableA)
    else:
-      print ('this is the character is not 0 or 7, it is', numberFromKeyboard)
+      print ('this is the numberr is not 0 or 7, it is', variableA)
 
 def main():
    # This is the main function.  all your main code goes here.
    print ('This program illustrates a if / else / else if function')
-   myCoolFunction(input("Enter a number between 0 and 9: "))
+   # myCoolFunction(input("Enter a number between 0 and 9: "))
+   numberFromKeyboard = eval((input("Enter a number between 0 and 9: ")))
+   myCoolFunction(numberFromKeyboard)
    print('back from myCoolFunction')
    print('All Done')
    # All done
