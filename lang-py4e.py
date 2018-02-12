@@ -25,8 +25,7 @@ def greet(lang):
 def main():
   greet('en')
   greet('fr')
-  greet('es')
-    
+  
 
 # This is the call to the Function main().  You should always 
 # have a main() and def main(): as part of all your programs
