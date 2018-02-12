@@ -12,7 +12,8 @@
 #  Revision 0.02 - Updated 02/11/2018 for SVCTE Mechatronics Class
 #  Revision 0.01 - Created 02/11/2018
 # Additional Comments: 
-# 
+  # Edit this code to invoke greet() for spanish
+  # Add another language, like Portuguese, or Quechua
 # ============================================================================
 
 def greet(lang):
