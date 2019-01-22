@@ -1,14 +1,18 @@
 # ============================================================================
-# Source: STEAM Clown - www.steamclown.org 
-# GitHub: https://github.com/jimTheSTEAMClown/Python-Code
-# Hacker: Jim Burnham - STEAM Clown, Engineer, Maker, Propmaster & Adrenologist 
-# This example code is licensed under the CC BY-NC-SA 3.0.
-# https://creativecommons.org/licenses/by-nc-sa/3.0/
-# Program/Design Name:		aTemplate.py
-# Description:    This is a template for python programs
+# <Delete any lines or entries you don't want or need... like this line>
+# Source: <your name, company, or organization  - <your web site like www.steamclown.org> 
+# GitHub: <if you don't have a github link, then delete this line>
+# Hacker: <your name - NickName, <more nouns to discribe how awesome you are Engineer, Maker, > 
+# This example code is licensed under the CC BY-NC-SA 4.0, GNU GPL and EUPL
+# https://creativecommons.org/licenses/by-nc-sa/4.0/
+# https://www.gnu.org/licenses/gpl-3.0.en.html
+# https://eupl.eu/
+# Program/Design Name:		<nameYourProgram.py>
+# Description:    This is a template for python programs... change this for your 
+# program description... should be 1-4 lines
 # Dependencies:   python3
 # Revision: 
-#  Revision 0.02 - Updated 01/21/2018 for SVCTE Mechatronics Class
+#  Revision 0.02 - Updated 01/21/2018 <add your update description here> 
 #  Revision 0.01 - Created 01/20/2018
 # Additional Comments: 
 # 
