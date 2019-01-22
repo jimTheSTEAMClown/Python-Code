@@ -2,7 +2,7 @@
 # <Delete any lines or entries you don't want or need... like this line>
 # Source: <your name, company, or organization  - <your web site like www.steamclown.org> 
 # GitHub: <if you don't have a github link, then delete this line>
-# Hacker: <your name - NickName, <more nouns to discribe how awesome you are Engineer, Maker, > 
+# Hacker: <your name - NickName, <more nouns to describe how awesome you are Engineer, Maker, > 
 # This example code is licensed under the CC BY-NC-SA 4.0, GNU GPL and EUPL
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
 # https://www.gnu.org/licenses/gpl-3.0.en.html
