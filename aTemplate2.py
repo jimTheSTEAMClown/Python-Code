@@ -2,8 +2,10 @@
 # Source: STEAM Clown - www.steamclown.org 
 # GitHub: https://github.com/jimTheSTEAMClown/Python-Code
 # Hacker: Jim Burnham - STEAM Clown, Engineer, Maker, Propmaster & Adrenologist 
-# This example code is licensed under the CC BY-NC-SA 3.0.
-# https://creativecommons.org/licenses/by-nc-sa/3.0/
+# This example code is licensed under the CC BY-NC-SA 4.0, GNU GPL and EUPL
+# https://creativecommons.org/licenses/by-nc-sa/4.0/
+# https://www.gnu.org/licenses/gpl-3.0.en.html
+# https://eupl.eu/
 # Program/Design Name:		aTemplate2.py
 # Description:    This is a template for python programs.  It shows passing variables 
 #                 to a function
