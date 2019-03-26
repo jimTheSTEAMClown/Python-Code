@@ -8,7 +8,7 @@ from time import sleep
 
 GPIO.setmode(GPIO.BOARD)
 alexResetButton = 18
-alexStartTimerButton = 19
+alexStartTimerButton = 22
 readyLED = 5
 player1LED = 7
 player2LED = 8
