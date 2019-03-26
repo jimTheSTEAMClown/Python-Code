@@ -8,6 +8,7 @@ from time import sleep
 
 GPIO.setmode(GPIO.BOARD)
 alexResetButton = 18
+alexStartTimerButton = 19
 readyLED = 5
 player1LED = 7
 player2LED = 8
@@ -25,6 +26,7 @@ GPIO.setup(player2LED, GPIO.OUT)
 GPIO.setup(player3LED, GPIO.OUT)
 GPIO.setup(player4LED, GPIO.OUT)
 GPIO.setup(alexResetButton, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+GPIO.setup(alexStartTimerButton, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(player1Button, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(player2Button, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(player3Button, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
