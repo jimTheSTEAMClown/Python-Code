@@ -11,8 +11,11 @@
 # Description:    This is a template for python programs... change this for your 
 # program description... should be 1-4 lines
 # Dependencies:   python3
+#   Inputs: <list any expected user input here>
+#   Outputs: <list any expected program output here>
 # Revision: 
-#  Revision 0.02 - Updated 01/21/2018 <add your update description here> 
+#  Revision 0.03 - Updated 06/09/2020 <add your update description here>
+#  Revision 0.02 - Updated 06/09/2020 added 'input / output' to the Dependencies section 
 #  Revision 0.01 - Created 01/20/2018
 # Additional Comments: 
 # 
