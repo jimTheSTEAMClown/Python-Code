@@ -20,7 +20,7 @@ def myCoolFunction(variableA):
    elif variableA == 7:
       print ('this is the number ',variableA)
    else:
-      print ('this is the numberr is not 0 or 7, it is', variableA)
+      print ('this number is not 0 or 7, it is', variableA)
 
 def main():
    # This is the main function.  all your main code goes here.
